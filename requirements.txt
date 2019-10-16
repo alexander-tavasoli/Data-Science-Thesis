@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+IPython
+scipy
+basemap
+xarray
+xesmf
+datetime
