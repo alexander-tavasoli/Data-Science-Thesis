@@ -1,5 +1,10 @@
 # DATA H195A - Data Science Thesis Project - Using Deep Learning for Climate Forecasting
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexander-tavasoli/Data-Science-Thesis.git/master)
+
+.. image:: https://mybinder.org/badge_logo.svg
+ :target: https://mybinder.org/v2/gh/alexander-tavasoli/Data-Science-Thesis.git/master
+
 _Omeed Tavasoli_
 
 This honors thesis will explore the intersection of climate science and deep learning with most of the focus on improving seasonal forecasting. 
