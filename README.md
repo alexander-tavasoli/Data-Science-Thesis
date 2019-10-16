@@ -33,7 +33,7 @@ To create a conda virtual environment with the above dependencies, you can use t
 $ conda env create -n <your-environment-name-here> -f environment.yml
 
 ```
-To create an environment with the name of your choosing, containing all of the dependencies required for the notebooks.
+to create an environment with the name of your choosing, containing all of the dependencies required for the notebooks.
 
 ## Environment Variables
 
