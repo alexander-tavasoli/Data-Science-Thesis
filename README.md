@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexander-tavasoli/Data-Science-Thesis.git/master)
 
-**the binder link is currently broken as I am still tweaking with the setup of my repository**
+**the binder link is currently broken as I am still setting up the repository and have yet to figure out how to host the data given the massive file sizes of climate datasets**
 
 _Omeed Tavasoli_
 
