@@ -2,6 +2,8 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexander-tavasoli/Data-Science-Thesis.git/master)
 
+**the binder link is currently broken as I am still tweaking with the setup of my repository**
+
 _Omeed Tavasoli_
 
 This honors thesis will explore the intersection of climate science and deep learning with most of the focus on improving seasonal forecasting. 
