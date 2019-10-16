@@ -1,6 +1,6 @@
-# L&S 88 - Final Project [Sample] - Insurance Charges & Smoking Habits
+# DATA H195A - Data Science Thesis Project - Using Deep Learning for Climate Forecasting
 
-_Chris Pyles, [other team members]_
+_Omeed Tavasoli
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ls88-openscienceconnector/final-project/master)
 
@@ -63,14 +63,5 @@ Make sure that your files render properly in Github. For example, Github does no
 
 > `https://github.com/ls88-openscienceconnector/<repo>/community/license/new?branch=master&template=cc0-1.0`
 
-### Deliverables
-
-Your project should have some deliverable (e.g. PDF, PPT, data). These should be uploaded in the `output` folder of your repo. If it is not a file you can upload (e.g. a Google Slides presentation), it should be linked-to in the README for that folder (even if this means you have a folder that is empty except for a README).
-
 ## Sources
 
-Lantz, Brett. _Machine Learning for R_. Packt, 2013. [https://edu.kpfu.ru/pluginfile.php/278552/mod_resource/content/1/MachineLearningR__Brett_Lantz.pdf](https://edu.kpfu.ru/pluginfile.php/278552/mod_resource/content/1/MachineLearningR__Brett_Lantz.pdf).
-
-Medical Cost Personal Datasets. Kaggle. 2019. [https://www.kaggle.com/mirichoi0218/insurance](https://www.kaggle.com/mirichoi0218/insurance).
-
-Pyles, Chris. Insurance Data. Github. 12 March 2019. [https://github.com/chrispyles/jupyter/blob/master/content/notebooks/insurance/insurance.ipynb](https://github.com/chrispyles/jupyter/blob/master/content/notebooks/insurance/insurance.ipynb).
