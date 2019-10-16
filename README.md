@@ -1,6 +1,6 @@
 # DATA H195A - Data Science Thesis Project - Using Deep Learning for Climate Forecasting
 
-_Omeed Tavasoli
+Omeed Tavasoli
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ls88-openscienceconnector/final-project/master)
 
