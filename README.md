@@ -6,60 +6,59 @@ This honors thesis will explore the intersection of climate science and deep lea
 
 ## Directory Structure
 
-This repo contains a few subfolders which contain the elements of this project.
+This repo contains a few subfolders which contain the elements of this thesis.
 
 | Folder | Description |
 |-----|-----|
-| `data`  | data from the original analysis in CSV, TSV, and pip-separated format  |
-| `images`  | image files used in the Jupyter Notebooks  |
-| `notebooks`  | Jupyter Notebook files, including reproduction analysis using both `pandas` and `datascience`, as well as the Pre-Analysis Plan and a "blank" notebook  |
-| `output`  | output data (same as original, for demo purposes) in CSV and TSV format  |
-| `subassignments`  | Markdown files with submissions for final project sub-assignments  |
+| `data`  | contains all reanalysis and forecast data which should be in netCDF4 format  |
+| `notebooks`  | contains jupyter notebooks for analysis of data as well as pre-processing scripts |
+| `output`  | output folder will contain images generated in data analysis notebooks  |
 
-## Final Project Details
+## Environment and packages
+The code was tested and written in Python 3.7.3 on Ubuntu. It makes use of the following Python 3.7.3 packages (these can be found in `requirements.txt` or `environment.yml` - see below for details about running in a conda environment):
++ **numpy**: 1.16.4
++ **pandas**: 0.24.2
++ **matplotlib**: 3.1.0
++ **scipy**: 1.2.1
++ **basemap**: 1.2.0
++ **xarray**: 0.12.3
++ **xesmf**: 4.32.2
++ **datetime**: 8.1
++ **python-cdo**: 1.5.3
 
-Your repo should contain _all_ of the folders listed above, and they should contain the appropriate files (e.g. the notebook with your analysis goes into the `notebooks` folder).
 
-### Pre-Analysis Plan
+To create a conda virtual environment with the above dependencies, you can use the `environment.yml` file. Navigate to the base directory and type the command:
 
-This should be completed after you have your data set but before you begin your analysis. **Make sure to timestamp this document!** This is the whole point of a Pre-Analysis Plan. It should contain the following sections:
+```bash
+$ conda env create -n <your-environment-name-here> -f environment.yml
 
-| Section | Description |
-|-----|-----|
-| Abstract  | an abstract for your project, excl. findings  |
-| Data  | description of your data set (something akin to a synthesis of the Step 1 assignment)  |
-| Strategy  | an outline of the steps you will take to analyze your data (mostly a description of the code)  |
-| Analysis  | any heuristics or mathematical models that you use, and the reasons for their use  |
-| Deliverables  | a description of the deliverable files in the repo, incl. where your presentation is  |
-| Sources   | list of sources for your data _and any other research_ that you did  |
-
-### MyBinder
-
-You should note that this repository has a MyBinder link (at the top of this README) which links to MyBinder to allow others to run our code. _Your repository should also include such a link._ The steps to create this link are given below:
-
-1. Copy the `requirements.txt` file from this repo and add it to yours. This should cover all dependencies, but if you use any that are not listed in that file, _make sure to add them_.
-2. Go to the [MyBinder website](https://mybinder.org/) and paste the URL to your repo in the `GitHub repository name or URL` field (pictured below).
-3. Include the brach name in the `Git branch, tag, or commit` field; for most, this will be `master`.
-4. Open the dropdown below the Binder URL and copy the text next to the ![Markdown logo](images/markdown.png).
-5. Paste this text into your README right below where your names are listed at the top. For our repo, it looked like this:
-
-```markdown
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ls88-openscienceconnector/final-project/master)
 ```
+To create an environment with the name of your choosing, containing all of the dependencies required for the notebooks.
 
-Here is a screenshot of the website filled out for this repo:
+## Environment Variables
 
-![Binder Screenshot](images/binder.png)
+Be sure to have these environment variables instantiated in your .bashrc or .bashprofile files where your_root is the root before the repository
 
-### Github Best Practices
+-- NCEP_DIR= your_root + '/CFSv2-and-SEAS5-Analysis/data/Reanalysis/NCEP_Reanalysis_2/'
 
-Note that this repository has a README and that each subfolder (except for the `images` folder) has a README as well. This should be reflected in the repo that you submit.
+-- BERKELEY_DIR= your_root + '/CFSv2-and-SEAS5-Analysis/data/Reanalysis/Berkeley_Earth/'
 
-Make sure that your files render properly in Github. For example, Github does not render the LaTeX `\limits` command, and any display math that uses it will not be rendered.
+-- CFS_DIR= your_root + '/CFSv2-and-SEAS5-Analysis/data/Forecasts/CFS/'
 
-**License:** Your repository should have a license on it. For most, if not all, of you, this will be a CC0 license, however we leave it at your discretion to choose the license for your project. Because Github no longer lists the CC0 template in its template chooser, we provide a link below to load this template into your repository. To use it, simply replace `<repo>` with the name of your repository.
+-- NMME_DIR= your_root + '/CFSv2-and-SEAS5-Analysis/data/Forecasts/NMME/'
 
-> `https://github.com/ls88-openscienceconnector/<repo>/community/license/new?branch=master&template=cc0-1.0`
+-- SEAS_DIR= your_root + '/CFSv2-and-SEAS5-Analysis/data/Forecasts/SEAS/'
+
+-- GRID_DIR= your_root + '/CFSv2-and-SEAS5-Analysis/data/Grid_Data/'
+
+-- ERA_DIR= your_root + '/CFSv2-and-SEAS5-Analysis/data/Reanalysis/ERA-5/'
+
+## Data
+
+Given the large nature of climate data sets, I cannot store the files on github. As a future task, I will need to write scripts that will download the necessary data automatically for the user.
+
+## Notebooks
+The notebooks included thus far only conduct a basic analysis of the climate datasets I am interested in using. More will be added that will actually delve into the deep learning aspects of my project.
 
 ## Sources
 
