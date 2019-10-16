@@ -1,6 +1,6 @@
 ## Forecasts 
 
-A folder that contains all of the forecast data. There should be environment variables linked to each of the subc=folders of Forecasts: NMME, CFS, and SEAS. These forecasts come from NOAA and ECMWF.
+A folder that contains all of the forecast data. There should be environment variables linked to each of the subfolders of Forecasts: NMME, CFS, and SEAS. These forecasts come from NOAA and ECMWF.
 
 ## Reanalysis
 
